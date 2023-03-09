@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plug-in>
+    <name>adminrightprovider</name>
+    <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
+    <version>1.0.0</version>
+    <description>adminrightprovider.plugin.description</description>
+    <documentation/>
+    <installation/>
+    <changes/>
+    <user-guide/>
+    <provider>adminrightprovider.plugin.provider</provider>
+    <provider-url>https://lutece.paris.fr</provider-url>
+    <icon-url>images/admin/skin/plugins/mylutece/mylutece.png</icon-url>
+    <copyright>Copyright 2001-2009 Mairie de Paris</copyright>
+
+    <core-version-dependency>
+        <min-core-version/>
+        <max-core-version/>
+    </core-version-dependency>
+
+    <!-- if the plugin must have a connection pool with parameter : 1 - yes, 0 - no -->
+    <db-pool-required>0</db-pool-required>
+
+    <!-- Waiting for PR https://github.com/lutece-platform/lutece-core/pull/318 to be compatible with Lutece 7.0.9-SNAPSHOT
+    <listeners>
+        <listener>
+            <listener-class>fr.paris.lutece.plugins.adminrightprovider.service.listener.AdminUserSessionListener</listener-class>
+        </listener>
+    </listeners>
+    -->
+</plug-in>

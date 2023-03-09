@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Plugin adminrightprovider</title>
+    </properties>
+    <body>
+        <section name="Plugin adminrightprovider">
+            <subsection name="Introduction">
+                <p>
+                    Back-office authentication based on Oauth2 sign on.
+                </p>
+            </subsection>
+        </section>
+    </body>
+</document>
