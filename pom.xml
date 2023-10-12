@@ -38,5 +38,11 @@
             <type>lutece-core</type>
         </dependency>
     </dependencies>
-    
+
+    <scm>
+        <connection>scm:git:https://github.com/lutece-platform/lutece-system-plugin-adminrightprovider.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/lutece-system-plugin-adminrightprovider.git</developerConnection>
+        <url>https://github.com/lutece-platform/lutece-system-plugin-adminrightprovider.git</url>
+    </scm>
+
 </project>
